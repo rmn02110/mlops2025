@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lesson6-step3-rag"
+version = "0.1.0"
+description = "RAG animation homework"
+authors = ["MLOps Course"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pillow = "^10.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

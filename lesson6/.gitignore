@@ -21,8 +21,8 @@ Thumbs.db
 .dockerignore
 catboost_info/
 
-seminar/step3_rag/src/
-seminar/step3_rag/notebooks/
-seminar/step3_rag/poetry.lock
-seminar/step3_rag/pyproject.toml
-seminar/step3_rag/Makefile
+# seminar/step3_rag/src/
+# seminar/step3_rag/notebooks/
+# seminar/step3_rag/poetry.lock
+# seminar/step3_rag/pyproject.toml
+# seminar/step3_rag/Makefile
