@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "lesson2-homework"
+version = "0.1.0"
+description = "Homework for lesson 2"
+authors = ["MLOps Course"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "~2.2"
+scikit-learn = "~1.5"
+dvc = "~3.50"
+great-expectations = "~0.18"
+pyyaml = "~6.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"
+black = "^24.8.0"
+ruff = "^0.6.9"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
